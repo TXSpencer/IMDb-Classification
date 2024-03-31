@@ -7,11 +7,11 @@ This project aims to classify film reviews as positive or negative based on thei
 To run the code, follow these steps:
 
 1. Install the required libraries by running `pip install -r requirements.txt`.
-2. Run the `film_review_sentiment_classification.py` script.
+2. Run the `imdb_classification.ipynb` script.
 
 ## Code Description
 
-The `film_review_sentiment_classification.py` script performs the following tasks:
+The `imdb_classification.ipynb` script performs the following tasks:
 
 1. Loads the IMDb dataset of film reviews using Keras.
 2. Preprocesses the data to be used by a neural network model.
@@ -22,13 +22,13 @@ The `film_review_sentiment_classification.py` script performs the following task
 
 ## File Description
 
-- `film_review_sentiment_classification.py`: The main Python script containing the code for data loading, preprocessing, model building, training, evaluation, and prediction.
+- `imdb_classification.ipynb`: The main Python script containing the code for data loading, preprocessing, model building, training, evaluation, and prediction.
 - `README.md`: This file, providing an overview of the project and instructions for running the code.
 - `requirements.txt`: A text file listing the required Python libraries and their versions.
 
 ## Usage
 
-You can run the `film_review_sentiment_classification.py` script using Python. Make sure you have the required libraries installed, as listed in `requirements.txt`.
+You can run the `imdb_classification.ipynb` script using Python. Make sure you have the required libraries installed, as listed in `requirements.txt`.
 
 ```bash
-python film_review_sentiment_classification.py
+python imdb_classification.ipynb
